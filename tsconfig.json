@@ -5,7 +5,9 @@
     "paths": {
       "@/*": ["./src/*"],
       "@shared/*": ["./src/app/shared/*"],
-      "@dashboard/*": ["./src/app/dashboard/*"]
+      "@dashboard/*": ["./src/app/dashboard/*"],
+      "@interfaces/*": ["./src/app/interfaces/*"],
+      "@services/*": ["./src/app/services/*"]
     },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
